@@ -8,7 +8,4 @@ function random_bg_color() {
     document.body.style.background = bgColor;
 }
 
-function changeBackground {
-    actionColor.addEventListener("click", random_bg_color);
-}
-changeBackground
+document.getElementById("pusher").addEventListener("click", random_bg_color);
