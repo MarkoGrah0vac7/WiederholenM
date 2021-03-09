@@ -8,4 +8,4 @@ function removeSanta() {
         imgSanta[i].addEventListener("click", makeInvisible);
     }
 }
-removeSanta
+removeSanta();
